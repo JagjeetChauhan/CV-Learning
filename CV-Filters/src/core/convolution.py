@@ -21,7 +21,7 @@ def convolve2d(image: np.ndarray,
     output_height = image_height - kernel_height + 1
     output_width = image_width - kernel_width + 1
 
-    output = np.zeros((output_height, output_height))
+    output = np.zeros((output_height, output_width))
 
     # Sliding window
     for y in range(output_height):
