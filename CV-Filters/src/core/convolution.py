@@ -3,7 +3,7 @@ from src.core.padding import zero_padding
 
 def convolve2d(image: np.ndarray,
                kernel: np.ndarray,
-               stride: int = 1,
+               stride: int = 2,
                padding: int = 0) -> np.ndarray:
     
     """

@@ -41,3 +41,17 @@ gaussian_blur = (1/16) * np.array([
     [2, 4, 2],
     [1, 2, 1]
 ])
+
+# Prewitt X
+PREWITT_X = np.array([
+    [-1, 0, 1],
+    [-1, 0, 1],
+    [-1, 0, 1]
+])
+
+# Prewitt Y
+PREWITT_Y = np.array([
+    [-1, -1, -1],
+    [0, 0, 0],
+    [1, 1, 1]
+])
